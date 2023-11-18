@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking</title>
+    <link rel="icon" type="image/x-icon" href="/images/tablogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <div id="top"></div>
+    <header class="header">
+        <a href="index.html" class="logo"> <i class="fas fa-hiking"></i> Queens town </a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+        <a href="adventure.html">Adventure</a>
+        <a href="blogs.html">blogs</a>
+        <a href="hotelBooking.html">Hotel Booking</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">about us</a>
+        <a href="contact_us.html">contact Us</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+    </header>
+    <div class="banner-area"></div>
+
+    <!-- blog HTML -->
+
+    <section class="light">
+        <div class="container py-2">
+            <div class="h1 text-center text-dark pb-4 " id="pageHeaderTitle">Book your hotel</div>
+            <article class="postcard light blue" id="bookhotel">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/article_1.jpg" alt="Adventure Activities" />
+                </a>
+                <h3 style="text-align: center; font-weight: bold;color: black;padding: 1%;">The Rees Hotel</h3>
+                <p style="color: black;text-align: justify;padding: 5%;">
+                    <ul style="color: black;text-align: justify;padding: 5%;">
+                        <li>Location         : Lakefront</li>
+                        <li>Price(Per Night) : 400$</li>
+                        <li>Specifications :
+                            <ul style="color: black;text-align: justify;padding: 5%;">
+                            <li>Luxury hotel with stunning views of Lake Wakatipu and the Remarkables mountain range.</li>
+                            <li>Spa, several restaurants and bars, heated outdoor pool</li>
+                            </ul>
+                    </li>
+                        
+                    </ul>
+                </p>
+            </article>
+
+            <article class="postcard light red" id="nature_card">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/article_2.jpg" alt="Nature" />
+                </a>
+                <h3 style="text-align: center; font-weight: bold;color: black;padding: 1%;">Sofitel Queenstown Hotel and Spa</h3>
+                <p style="color: black;text-align: justify;padding: 5%;">
+                    <ul style="color: black;text-align: justify;padding: 5%;">
+                        <li>Location         : Central</li>
+                        <li>Price(Per Night) : 450$</li>
+                        <li>Specifications :
+                            <ul style="color: black;text-align: justify;padding: 5%;">
+                            <li>5-star hotel with a variety of room types, including suites with lake views.</li>
+                            <li>Spa, restaurant and bar, heated indoor pool.</li>
+                            </ul>
+                    </li>
+                        
+                    </ul>
+                </p>
+            </article>
+
+            <article class="postcard light green" id="winter_card">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/article_3.jpg" alt="Winter" />
+                </a>
+                <h3 style="text-align: center; font-weight: bold;color: black;padding: 1%;">QT Queenstown</h3>
+                <p style="color: black;text-align: justify;padding: 5%;">
+                    <ul style="color: black;text-align: justify;padding: 5%;">
+                        <li>Location         : Central</li>
+                        <li>Price(Per Night) : 600$</li>
+                        <li>Specifications :
+                            <ul style="color: black;text-align: justify;padding: 5%;">
+                            <li>Boutique hotel with a stylish design and vibrant atmosphere. </li>
+                            <li>Rooftop bar with stunning views of the city and the surrounding mountains.</li>
+                            </ul>
+                    </li>
+                        
+                    </ul>
+                </p>
+            </article>
+
+            <article class="postcard light yellow" id="hiking_card">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/Article_4.jpg" alt="Hiking" />
+                </a>
+                <h3 style="text-align: center; font-weight: bold;color: black;padding: 1%;">Hilton Queenstown Resort & Spa</h3>
+                <p style="color: black;text-align: justify;padding: 5%;">
+                    <ul style="color: black;text-align: justify;padding: 5%;">
+                        <li>Location         : Lakefront</li>
+                        <li>Price(Per Night) : 250$</li>
+                        <li>Specifications :
+                            <ul style="color: black;text-align: justify;padding: 5%;">
+                            <li>4-star hotel with stunning views of Lake Wakatipu and the Remarkables mountain range.</li>
+                            <li>Spa, several restaurants and bars, heated outdoor pool</li>
+                            </ul>
+                    </li>   
+                    </ul>
+                </p>
+            </article>
+            <article style="display: flex;justify-content: center;align-items: center;height: 100%;">
+                <table>  <!-- Use table Tag only-->
+                <form style="display: flex;flex-direction: column;align-items: center;padding: 20px;border: 1px solid #ccc; border-radius: 8px;width: 300px; background-color: #f9f9f9;">
+                    <div class="tm-form1">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <select name="Rooms" id="rooms">
+                            <option value="luxury-suite">Luxury Suite</option>
+                            <option value="deluxe-suite">Deluxe Suite</option>
+                            <option value="premier-suite">Premier Suite</option>
+                            <option value="luxury-room">Luxury Room</option>
+                            <option value="deluxe-room">Deluxe Room</option>
+                            <option value="premier-room">Premier Room</option>
+                        </select>
+                
+                        <div class="tm-num1" id="handleCounter1">
+                            <label for="number1">Number of Rooms</label><br>
+                            <button type="button" class="counter-minus btn btn-primary">-</button>
+                            <input type="text" name="number1" id="number1" value="1">
+                            <button type="button" class="counter-plus btn btn-primary">+</button>
+                        </div>
+                        <div class="tm-num2" id="handleCounter2">
+                            <label for="number2">Number of Guests</label><br>
+                            <button type="button" class="counter-minus btn btn-primary">-</button>
+                            <input type="text" name="number2" id="number2" value="1">
+                            <button type="button" class="counter-plus btn btn-primary">+</button>
+                        </div>
+                    </div>
+                
+                    <div class="vertical-line"></div>
+                
+                    <div class="tm-form2">
+                        <div class="tm-cl">
+                            <label for="date1" class="arrival">Visiting Dates from Arrival to Departure</label>
+                            <input type="text" name="date1" class="range" readonly="readonly">
+                            <input type="submit" id="sub" value="Proceed">
+                        </div>
+                    </div>
+                </form>
+            </table>
+            </article>
+        </div>
+    </section>
+
+
+    
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">Home</a>
+            <a href="adventure.html">Adventure</a>
+            <a href="blogs.html">Blog</a>
+            <a href="hotelBooking.html">Hotel Booking</a>
+            <a href="heritage.html">Heritage</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact_us.html">Contact us</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">Contact Us</a>
+            <a href="term_and_conditions.html">terms of use</a>
+            <a href="privacy_policy.html">privacy policy</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="tel:+94702332255"> <i class="fas fa-phone"></i> +94 70 2 33 22 55 </a>
+            <a href="mailto:support@queentown.com"> <i class="fas fa-envelope"></i> support@queentown.com </a>
+            <a href="#"> <i class="fas fa-map"></i> Queen Town, New Zealand</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.instagram.com/Queens_town" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.facebook.com/hashtag/Queens_town" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://www.pinterest.com/search/pins/?q=Queens_town&rs=typed" target="_blank"><i class="fa fa-pinterest"></i> pinterest </a>
+            <a href="https://twitter.com/Queens_town" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://www.linkedin.com/feed/hashtag/Queens_town/" target="_blank"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+    </div>
+    <div class="credit">Created by Ramishka Madhushan<br> Copyright ©️ 2023 - all rights reserved!</div>
+</section>
+</body>
+</html>
